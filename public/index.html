@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Exam Result System</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <h1>Exam Result Management</h1>
+        <form id="userForm">
+            <input type="text" id="name" placeholder="Name" required />
+            <input type="email" id="email" placeholder="Email" required />
+            <select id="role">
+                <option value="Student">Student</option>
+                <option value="Faculty">Faculty</option>
+            </select>
+            <button type="submit">Add User</button>
+        </form>
+        <div id="users"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
